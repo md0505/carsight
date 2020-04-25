@@ -8,7 +8,7 @@ Using YOLO v2 and the Joing Attention in Autonomous Driving [JAAD](http://data.n
 Pre-process the desired video by converting it to frames (ffmpeg in Julia was used for this project)
 Run the conversion python script to copy and convert your frames from PNG to JPG format needed by YOLO v2:
 ```
-python convert_images.py
+python convert_images.py [vidoe_id_integer]
 ```
 
 ## Running
